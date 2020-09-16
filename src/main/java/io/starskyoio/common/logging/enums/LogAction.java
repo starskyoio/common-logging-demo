@@ -6,6 +6,5 @@ package io.starskyoio.common.logging.enums;
 public enum LogAction {
     ADD,
     UPDATE,
-    DELETE,
-    INIT
+    DELETE
 }

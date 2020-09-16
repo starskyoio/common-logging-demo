@@ -43,5 +43,9 @@ public @interface CommonLog {
      */
     LogLevel level() default LogLevel.INFO;
 
+    /**
+     * 推送类型
+     * @return
+     */
     String pushType() default "inner";
 }
